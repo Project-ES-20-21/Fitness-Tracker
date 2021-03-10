@@ -7,6 +7,6 @@ We plaatsen accelerometer aan een kettlebell en deze zal dan gebruikt worden om 
 - Het kanaal "esp32/fitness/OKmessage" wordt gebruikt om door te geven of de oefeningenreeks juist is of fout.
 
 ## ESP32 met display
-- Het kanaal "esp32/fitness/control" zal gebruikt worden om POWEROFF (3 zal dan gestuurd worden) en  POWERON (4 zal dan gestuurd worden). Dus als het cijfer drie gestuurd gepublished wordt moeten alle andere proeven wachten totdat het cijfer 4 gepublished wordt.
+- Het kanaal "esp32/fitness/control" zal gebruikt worden om POWEROFF (3 zal dan gestuurd worden) en  POWERON (4 zal dan gestuurd worden). Dus als het cijfer drie gepublished wordt moeten alle andere proeven wachten totdat het cijfer 4 gepublished wordt.
 - Het kanaal "esp32/fitness/cijferAlohomara" zal een nummer publishen van het cijferslot.
 
