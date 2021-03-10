@@ -10,4 +10,5 @@ We plaatsen accelerometer aan een kettlebell en deze zal dan gebruikt worden om 
 ## ESP32 met display
 - Het kanaal "esp32/fitness/control" zal gebruikt worden om POWEROFF (3 zal dan gestuurd worden) en  POWERON (4 zal dan gestuurd worden). Dus als het cijfer drie gepublished wordt moeten alle andere proeven wachten totdat het cijfer 4 gepublished wordt.
 - Het kanaal "esp32/fitness/cijferAlohomara" zal een nummer publishen van het cijferslot.
+- "esp32/fitness/telefoon" zal gebruikt worden om de telefoon van morsecode te laten afgaan. Als het woord "BEL" op dit kanaal verschijnt, dan mag de telefoon beginnen ringen. 
 
