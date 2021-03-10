@@ -5,6 +5,7 @@ We plaatsen accelerometer aan een kettlebell en deze zal dan gebruikt worden om 
 ## ESP32 op kettlebell
 - Het kanaal "esp32/fitness/nmrOef" zal gebruikt worden om het nummer van de oefeningenreeks te publishen. 
 - Het kanaal "esp32/fitness/OKmessage" wordt gebruikt om door te geven of de oefeningenreeks juist is of fout.
+- Het kanaal "esp32/fitness/LCDmessage" geeft weer of er gemeten wordt en als de oefeningen juist of fout zijn.
 
 ## ESP32 met display
 - Het kanaal "esp32/fitness/control" zal gebruikt worden om POWEROFF (3 zal dan gestuurd worden) en  POWERON (4 zal dan gestuurd worden). Dus als het cijfer drie gepublished wordt moeten alle andere proeven wachten totdat het cijfer 4 gepublished wordt.
